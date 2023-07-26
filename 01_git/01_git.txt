@@ -1,3 +1,10 @@
 This is my file on the bf_01_git_01 branch.
 Super cool stuff.
 Now I'm updating it again to use rebase interactive
+
+1. A scenario where merging is better than rebasing: 
+a. Merging is better when submitting a pull request for review
+b. Merging is better when wanting to maintain a more complete git history
+2. A scenario where rebasing is better than merging:
+a. When the changes are very minimal, such as correcting a minor spelling error
+b. When changes prior to rebasing aren't substantial enough to warrant tracking separately
